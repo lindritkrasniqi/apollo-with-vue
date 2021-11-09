@@ -6,11 +6,15 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "dependencies": {
-    "vue": "^3.2.16"
-  },
   "devDependencies": {
+    "@apollo/client": "^3.4.16",
     "@vitejs/plugin-vue": "^1.9.3",
-    "vite": "^2.6.4"
+    "@vue/apollo-composable": "^4.0.0-alpha.15",
+    "graphql": "^15.7.2",
+    "graphql-tag": "^2.12.6",
+    "pinia": "^2.0.2",
+    "vite": "^2.6.4",
+    "vue": "^3.2.21",
+    "vue-router": "^4.0.12"
   }
 }
